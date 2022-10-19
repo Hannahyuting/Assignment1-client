@@ -15,7 +15,7 @@ public class OutputRecord {
         this.output = output;
     }
 
-    private static final String filePath = "/Users/hannahzhang/Dropbox/NEU/2022 Fall/6650/outputRecord.csv";
+    private static final String filePath = "outputRecord.csv";
 
     public void writeDataToCSV() throws IOException {
         FileWriter file = new FileWriter(filePath);
